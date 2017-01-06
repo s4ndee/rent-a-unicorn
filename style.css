@@ -1,0 +1,97 @@
+/* This is a comment in CSS. Different syntax than the HTML file, but has the same effect. */
+/* Refer to the CSS Almanac [https://css-tricks.com/almanac/] for a complete list of CSS properties. */
+body {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+/* Your CSS goes here. */
+
+
+#fancy-paragraph {
+  color: red;
+  font-style: italic;
+}
+
+.header {
+  margin: 20px 0;
+}
+
+hr {
+  display: block;
+  margin-top: 2.2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-description {
+  color: #4f5556;
+  margin: 30px 0;
+  font-size: 1.5em
+
+
+}
+
+h1 {
+  color: #58cdf4;
+  font-family: Helvetica neue, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  color: #9fabad;
+  font-family: Helvetica neue,sans-serif;
+  font-size: 25px;
+  font-weight: normal;;
+  text-align: center;
+
+}
+
+
+.top-image  {
+  display: block;
+  margin: auto;
+  width: auto;
+}
+
+.content-image  {
+  align: right;
+  width: 50%;
+  margin: 5px 0px 40px 70px;
+}
+
+
+.rent-button {
+  color: #404244;
+  background: white;
+  cursor: pointer;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #9fabad;
+  border-radius: 6px;
+  display: block;
+  margin: 60px auto;
+}
+
+.container-footer {
+  background-color: #f4f4f4;
+  padding: 60px 0px;
+}
+.content-footer {
+  text-align: center;
+  font-family: Helvetica neue, sans-serif;
+  font-size: 1.5em;
+
+}
+.rainbowize {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+}
